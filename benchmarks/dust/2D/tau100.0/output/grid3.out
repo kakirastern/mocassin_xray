@@ -1,0 +1,44 @@
+           1
+   5.000000      convWriteGrid
+ T  0.2000000       2.000000       900000000  lgAutoPackets
+ T  lgSymmetricXYZ
+ F  lgTalk
+ F  lg1D
+         215  nbins
+  7.5000003E-02  nuStepSize
+   15.00000      nuMax
+  1.0010000E-05  nuMin
+  1.9599999E+13  R_in
+  2.9999999E-02  XHIlimit
+          30   95.00000      maxIterateMC
+ F  lgDebug
+ F  0.0000000E+00  0.0000000E+00  0.0000000E+00  lgPlaneIonization
+           1  nAbComponents
+ "noGas                                             "
+ T  lgOutput
+  0.0000000E+00  0.0000000E+00  dxSlit,dySlit
+ T F  lgDust, lgDustConstant
+ "input/disk_grainspecies.dat" dustFile
+ "input/disk_grainsizes.dat" dustFile
+ F  lgGas
+ F  lgRecombination
+           1           1 nSpecies, nSizes
+   101.0000     resLinesTransfer
+ T lgDustScattering
+           2  nAngleBins
+  0.2180000       1.350000      inclination theta
+  -1.000000      -1.000000      inclination theta
+  -1.000000      -1.000000      continuumCube
+ T  lgPhotoelectric
+ F  lgTraceHeating
+  0.0000000E+00  Ldiffuse
+  0.0000000E+00  Tdiffuse
+ none                                               shapeDiffuse
+           0 nPhotonsDiffuse
+           0  emittingGrid
+          17  nstages
+ F  lgMultiStars
+ T  compton?
+  0.0000000E+00  0.0000000E+00 pwlMin, pwlMax
+ F  nahar?
+ T  badnell?
